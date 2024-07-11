@@ -4,7 +4,7 @@ getgenv().KEANW = {
     Main = {
         ["FindBestServer"] = false, -- connects to server with best ping
         ["Key"] = "your_key",
-        ["Gui"] = false,
+        ["Gui"] = true,
         ["GuiInfo"] = true,
         ["AutoLowGFX"] = true, 
         ["DisableShadows"] = true, 
@@ -1407,7 +1407,7 @@ local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/
 local SaveManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/k4alt/gray/main/save.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'KEANW ; 1.0.2',
+    Title = 'starla.xyz',
     Center = true, 
     AutoShow = true,
 })
